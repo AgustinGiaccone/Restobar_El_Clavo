@@ -87,7 +87,7 @@ li{
 a{
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     margin: 10px 20px;
     display: inline-block;
     border-radius: 15px;
@@ -107,9 +107,10 @@ header{
 a:hover{
     text-decoration: underline;
     font-size: 35px;
-    background: black;
+    background: rgba(0, 0, 0, 0);
     color: wheat;
-}
+    
+    }
 a:active{
     background: wheat;
     color: black;
@@ -117,8 +118,13 @@ a:active{
 .imagen-1{
     width: 400px;
 }
+.imagen-2{
+    width: 100px;
+    background-color: rgba(245, 245, 220, 0);
+}
 footer{
     text-align: center;
+
 }
 @media screen and (max-width: 480px){
     .imagen-1{
