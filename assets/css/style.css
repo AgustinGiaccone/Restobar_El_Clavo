@@ -28,6 +28,7 @@
 }
 .child-1{
     grid-column: 1/4;
+    display: inline-block;
 }
 .child-2{
     grid-row: 2/4;
@@ -79,7 +80,7 @@ li{
     text-align: center;
 }
 .navbar{
-    display: inline-block;
+    display: block;
     font-size: 30px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -117,76 +118,40 @@ a:active{
 }
 .imagen-1{
     width: 400px;
+    display: initial;
 }
 .imagen-2{
     width: 100px;
     background-color: rgba(245, 245, 220, 0);
+    
+}
+.imagen-3{
+    width: 100px;
+    background-color: rgba(245, 245, 220, 0);
+    
 }
 footer{
     text-align: center;
 
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 576px){
     .imagen-1{
         width: 200px;
     }
+    body{
+        background-image: url("../img/fondo\ mobile.jpg");
+    }
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*<div class="gridconteiner">
-        <div class="child child-1"><header>
-
-        </header>
-
-        </div>
-        <div class="child child-2"><nav>
-
-        </nav>
-
-        </div>
-        <div class="child child-3"><main>
-
-        </main>
-
-        </div>
-        <div class="child child-4"><footer>
-            
-        </footer>
-
-        </div>
-</div>*/
+@media screen and (max-width: 768px){
+    .imagen-2{
+        display: block;
+        width: 1px;
+    }
+    .imagen-3{
+        display: block;
+        width: 1px;
+    }
+    .imagen-1{
+        width: 300px;
+    }
+}
