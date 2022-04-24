@@ -155,3 +155,24 @@ footer{
         width: 300px;
     }
 }
+@keyframes un_efecto {
+    0%{ width: 0px; }
+    25%{ width: 25%; }
+    
+    75%{ width: 75%;}
+    100%{ width: 100%;
+    background-color: rgb(103, 0, 214);}
+ }
+ 
+ 
+    
+ section {
+    width: 0px;
+    height: 5px;
+    background-color: rgb(16, 0, 119);
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 4s;
+ }
