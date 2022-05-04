@@ -113,13 +113,9 @@ a:active {
   width: 400px;
   display: initial; }
 
-.imagen-2 {
-  width: 100px;
-  background-color: rgba(245, 245, 220, 0); }
-
-.imagen-3 {
-  width: 100px;
-  background-color: rgba(245, 245, 220, 0); }
+.imagen-2, .imagen-3 {
+  background-color: rgba(245, 245, 220, 0);
+  width: 100px; }
 
 footer {
   text-align: center; }
@@ -134,7 +130,7 @@ footer {
     grid-template-rows: auto auto auto; } }
 
 @media screen and (max-width: 768px) {
-  .imagen-2 {
+  .imagen-2, .imagen-3 {
     display: block;
     width: 1px; }
   .imagen-3 {

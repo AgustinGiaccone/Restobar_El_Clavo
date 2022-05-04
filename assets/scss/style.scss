@@ -122,15 +122,15 @@ a:active{
     width: 400px;
     display: initial;
 }
+@mixin sizes-color($bc, $w) {
+    background-color: $bc;
+    width: $w ;
+}
 .imagen-2{
-    width: 100px;
-    background-color: rgba(245, 245, 220, 0);
-    
+    @include sizes-color(rgba(245, 245, 220, 0), 100px )
 }
 .imagen-3{
-    width: 100px;
-    background-color: rgba(245, 245, 220, 0);
-    
+    @extend .imagen-2
 }
 footer{
     text-align: center;
