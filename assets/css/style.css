@@ -128,7 +128,10 @@ footer {
   .imagen-1 {
     width: 200px; }
   body {
-    background-image: url("../img/fondo mobile.jpg"); } }
+    background-image: url("../img/fondo mobile.jpg"); }
+  .gridconteiner {
+    grid-template-columns: 190px auto auto;
+    grid-template-rows: auto auto auto; } }
 
 @media screen and (max-width: 768px) {
   .imagen-2 {
@@ -160,3 +163,9 @@ section {
   animation-timing-function: ease-in;
   animation-duration: 4s;
   animation-delay: 4s; }
+
+.contacto {
+  width: 50px;
+  text-align: center;
+  background-color: rgba(126, 126, 126, 0.377);
+  border-radius: 20px; }

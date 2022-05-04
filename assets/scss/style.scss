@@ -1,3 +1,5 @@
+@import 'variables';
+
 *{
     margin: 0px;
     padding: 0px;
@@ -141,6 +143,13 @@ footer{
     body{
         background-image: url("../img/fondo\ mobile.jpg");
     }
+    .gridconteiner{
+        grid-template-columns: 190px auto auto;
+        grid-template-rows: auto auto auto;
+}
+
+
+
 }
 @media screen and (max-width: 768px){
     .imagen-2{
@@ -175,4 +184,10 @@ footer{
     animation-timing-function: ease-in;
     animation-duration: 4s;
     animation-delay: 4s;
+ }
+ .contacto{
+    width: map-get($map: $estilo, $key: tamaño);
+    text-align: map-get($map: $estilo , $key: alineacion);
+    background-color: map-get($map: $estilo , $key: color-fondo); 
+    border-radius: map-get($map: $estilo , $key: radio );  
  }
