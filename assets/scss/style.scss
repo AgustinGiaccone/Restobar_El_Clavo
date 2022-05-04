@@ -191,3 +191,11 @@ footer{
     background-color: map-get($map: $estilo , $key: color-fondo); 
     border-radius: map-get($map: $estilo , $key: radio );  
  }
+ .info{
+    color: white;
+    font-size: 20px;
+ }
+ .info-end{
+     @extend .info;
+     font-size: 15px;
+ }

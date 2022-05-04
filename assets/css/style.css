@@ -169,3 +169,10 @@ section {
   text-align: center;
   background-color: rgba(126, 126, 126, 0.377);
   border-radius: 20px; }
+
+.info, .info-end {
+  color: white;
+  font-size: 20px; }
+
+.info-end {
+  font-size: 15px; }
